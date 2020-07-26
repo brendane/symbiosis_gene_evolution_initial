@@ -1,0 +1,73 @@
+Taxon	Strain	Status	FTP_url
+Azorhizobium caulinodans ORS 571	ORS 571	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/010/525/GCF_000010525.1_ASM1052v1
+Azorhizobium doebereinerae UFLA1-100	UFLA1-100	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/473/085/GCF_000473085.1_ASM47308v1
+Bradyrhizobium algeriense	RST91	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/062/295/GCF_003062295.1_ASM306229v1
+Bradyrhizobium diazoefficiens USDA 110	USDA110	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/011/365/GCF_000011365.1_ASM1136v1
+Bradyrhizobium icense	LMTR 13	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/693/385/GCF_001693385.1_ASM169338v1
+Bradyrhizobium japonicum USDA 6	USDA 6	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/284/375/GCF_000284375.1_ASM28437v1
+Bradyrhizobium jicamae	PAC68	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/440/395/GCF_001440395.1_ASM144039v1
+Bradyrhizobium macuxiense	BR 10303	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/542/415/GCF_001542415.1_ASM154241v1
+Bradyrhizobium sp. Ai1a-2	Ai1a-2	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/426/245/GCF_000426245.1_ASM42624v1
+Bradyrhizobium sp. Cp5.3	Cp5.3	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/426/265/GCF_000426265.1_ASM42626v1
+Bradyrhizobium sp. th.b2	th.b2	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/426/785/GCF_000426785.1_ASM42678v1
+Bradyrhizobium valentinum	LmjM3	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/440/405/GCF_001440405.1_ASM144040v1
+Mesorhizobium japonicum MAFF 303099	MAFF 303099	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/009/625/GCF_000009625.1_ASM962v1
+Mesorhizobium loti	UFLA 01-765	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/510/895/GCF_001510895.1_ASM151089v1
+Mesorhizobium ciceri ca181	ca181	Chromosome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/474/725/GCF_000474725.1_MciceriCa181_1.0
+Mesorhizobium sp. ORS 3324	ORS 3324	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/824/825/GCF_000824825.2_Illumina_assembly_ORS3324T
+Neorhizobium galegae bv. orientalis str. HAMBI 540	HAMBI 540	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/731/315/GCF_000731315.1_RG540_Ch_pA
+Rhizobium etli CFN 42	CFN 42	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/092/045/GCF_000092045.1_ASM9204v1
+Rhizobium favelukesii	LPU83	Chromosome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/577/275/GCF_000577275.1_LPU83
+Rhizobium gallicum bv. gallicum R602	R602	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/816/845/GCF_000816845.1_ASM81684v1
+Rhizobium giardinii bv. giardinii H152	H152	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/379/605/GCF_000379605.1_ASM37960v1
+Rhizobium leguminosarum bv. trifolii WSM2304	WSM2304	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/021/345/GCF_000021345.1_ASM2134v1
+Rhizobium leguminosarum bv. viciae 3841	3841	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/009/265/GCF_000009265.1_ASM926v1
+Rhizobium mesoamericanum STM3625	STM3625	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/312/665/GCF_000312665.1_ASM31266v1
+Rhizobium sp. CCGE532	CCGE532	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/627/775/GCF_003627775.1_ASM362777v1
+Rhizobium sp. IRBG74	IRBG74	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/499/645/GCF_000499645.1_IRBG74
+Rhizobium sp. NXC24	NXC24	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/944/315/GCF_002944315.1_ASM294431v1
+Rhizobium taibaishanense	14971	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/938/985/GCF_001938985.1_ASM193898v1
+Rhizobium tropici CIAT 899	CIAT 899	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/330/885/GCF_000330885.1_ASM33088v1
+Sinorhizobium fredii NGR234	NGR234	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/018/545/GCF_000018545.1_ASM1854v1
+Sinorhizobium medicae WSM419	WSM419	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/017/145/GCF_000017145.1_ASM1714v1
+Sinorhizobium meliloti 1021	1021	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/006/965/GCF_000006965.1_ASM696v1
+Sinorhizobium saheli	LMG 7837	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/651/875/GCF_001651875.1_ASM165187v1
+Methylobacterium nodulans ORS 2060	ORS 2060	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/022/085/GCF_000022085.1_ASM2208v1
+Ochrobactrum lupini	LUP21	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/252/535/GCF_002252535.1_ASM225253v1
+Ochrobactrum cytisi	IPA7.2	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/876/955/GCF_001876955.1_ASM187695v1
+Phyllobacterium sophorae	CCBAU 03422	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/010/965/GCF_003010965.1_ASM301096v1
+Microvirga lotononidis	WSM3557	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/262/405/GCF_000262405.1_ASM26240v1
+Paraburkholderia caribensis	TJ182	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/028/645/GCF_003028645.1_ASM302864v1
+Paraburkholderia diazotrophica	LMG 26031	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/900/108/945/GCF_900108945.1_IMG-taxon_2654588103_annotated_assembly
+Paraburkholderia dilworthii	WSM3556	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/472/525/GCF_000472525.1_ASM47252v1
+Paraburkholderia kirstenboschensis	KB15	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/636/975/GCF_001636975.1_ASM163697v1
+Paraburkholderia mimosarum LMG 23256 = NBRC 106338	LMG 23256	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/472/825/GCF_000472825.1_ASM47282v1
+Paraburkholderia nodosa DSM 21604	DSM 21604	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/519/185/GCF_000519185.1_ASM51918v1
+Paraburkholderia phenoliruptrix BR3459a	BR3459a	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/300/095/GCF_000300095.1_ASM30009v1
+Paraburkholderia phymatum STM815	STM815	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/020/045/GCF_000020045.1_ASM2004v1
+Paraburkholderia rhynchosiae	WSM 3937	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/879/865/GCF_002879865.1_ASM287986v1
+Paraburkholderia sprentiae WSM5005	WSM5005	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/865/575/GCF_001865575.1_ASM186557v1
+Paraburkholderia tuberum	WSM4176	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/372/945/GCF_000372945.1_ASM37294v1
+Cupriavidus taiwanensis STM 6070	STM6070	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/372/525/GCF_000372525.1_ASM37252v1
+Rhizobium leguminosarum bv. phaseoli 4292	4292	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/379/005/GCF_000379005.1_ASM37900v1
+Rhizobium leguminosarum bv. trifolii WSM1325	WSM1325	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/023/185/GCF_000023185.1_ASM2318v1
+Rhizobium etli bv. mimosae str. Mim1	Mim1	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/442/435/GCF_000442435.1_ASM44243v1
+Rhizobium etli bv. phaseoli str. IE4803	IE4803	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/816/125/GCF_000816125.1_ASM81612v1
+Rhizobium esperanzae	N561	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/664/265/GCF_001664265.1_ASM166426v1
+Rhizobium phaseoli	N161	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/664/165/GCF_001664165.1_ASM166416v1
+Sinorhizobium arboris LMG 14919	LMG 14919	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/427/465/GCF_000427465.1_ASM42746v1
+Bradyrhizobium sp. ORS 285	ORS285	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/900/176/205/GCF_900176205.1_BRAD285_PRJEB202261_v1
+Bradyrhizobium arachidis	USDA 3384	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/472/685/GCF_000472685.1_ASM47268v1
+Bradyrhizobium liaoningense	CCNWSX0360	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/595/995/GCF_001595995.1_ASM159599v1
+Bradyrhizobium manausense	BR3351	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/440/035/GCF_001440035.1_ABySSBR3351v1
+Bradyrhizobium stylosanthis	BR 446	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/641/335/GCF_001641335.1_ASM164133v1
+Bradyrhizobium yuanmingense	BR3267	Scaffold	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/439/885/GCF_001439885.1_ABySSBR3267
+Bradyrhizobium sp. ARR65	ARR65	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/472/385/GCF_000472385.1_ASM47238v1
+Bradyrhizobium sp. Tv2a-2	Tv2a-2	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/472/425/GCF_000472425.1_ASM47242v1
+Bradyrhizobium canariense	UBMA182	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/108/845/GCF_002108845.1_ASM210884v1
+Rhizobium sp. LCM 4573	LCM 4573	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/854/865/GCF_001854865.1_ASM185486v1
+Rhizobium hidalgonense	FH14	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/531/855/GCF_002531855.1_ASM253185v1
+Mesorhizobium amorphae CCNWGS0123	CCNWGS0123	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/686/985/GCF_001686985.1_ASM168698v1
+Mesorhizobium australicum WSM2073	WSM2073	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/230/995/GCF_000230995.2_ASM23099v3
+Sinorhizobium americanum CCGM7	CCGM7	Complete Genome	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/705/595/GCF_000705595.2_ASM70559v2
+Neorhizobium alkalisoli	DSM 21826	Contig	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/968/635/GCF_002968635.1_ASM296863v1

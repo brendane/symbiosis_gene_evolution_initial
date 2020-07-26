@@ -1,0 +1,154 @@
+Gene data
+==========
+
+If you are looking for the statistics for each gene or pair of sequences
+they can be found in these two files:
+- 6-comparison/pairwise_divergence.tsv
+- Table S5 in the ms has key gene summary statistics.
+
+
+Workflow, code, and various output files:
+===========================================
+
+1. Genome assemblies downloaded from public databases
+   Lists of strains and accession numbers are provided in the 1-genomes
+   directory.
+   - Accession numbers for the 72 strains from NCBI are found in
+     ncbi_genomes.tsv.
+   - USDA4894 and USDA1106 were also downloaded from the MaGe Microscope
+     platform: https://mage.genoscope.cns.fr/microscope/search/exportForm.php?mode=ORG
+   - The 27 alpha-Proteobacteria with complete genome assemblies that
+     were chosen for evolutionary analyses (after running OrthoFinder)
+     are listed in 27_chosen_strains.txt.
+   - The full list of strains downloaded is in all_strains.txt.
+
+2. Ortholog identification by using OrthoFinder
+   The code and output for the OrthoFinder run is provided in the
+   2-orthologs directory.
+   - script is orthofinder_pipeline.sh. Note that it was set up to run
+     on the Univ. of MN Supercomputing Institute servers, so it will
+     have to be modified if run in a different environment. Also, file
+     paths will have to be adjusted.
+   - all auxiliary python scripts have also been included.
+   - I (Brendan) modified one of the scripts included with OrthoFinder
+     so that it would print out the rooted gene trees.
+   - Output files:
+     - reconciled orthologs: reconciled_genes.tsv, this file is where
+       the genes for the rest of the analysis are defined. It was
+       created by extract_orthosets_from_orthofinder_trees.py, which
+       used the rooted gene trees to identify phylogenetic groupings of
+       gene sequences. "subset" column is the gene name.
+     - annotation: annotation.tsv. The "description" column was an
+       attempt at combining the gene products from all strains into a
+       summary; sometimes this was successful. The "gene" and
+       "descriptions" columns have comma-separated lists of all the
+       unique gene names and descriptions for the gene (from all
+       strains).
+     - pseudogenes: pseudogenes.txt
+     - rooted gene trees from OrthoFinder:
+       rooted_gene_tress_from_orthofinder.tsv, one newick formatted tree
+       per line, first column is the "orthogroup". This output file is
+       from the modfied OrthoFinder script.
+     - IMPORTANT NOTE: The output files from this step still include
+       pseudogenes. These have to be removed during subsequent analysis
+       steps.
+   - Symbiosis genes are in symbiosis_genes
+     - Note: The rhizobial fitness phenotype is the same one presented in
+       Burghardt et al. (2017, PNAS). However, the candidate gene list
+       used here is slightly different--for consistency, the analysis was
+       re-run using the same methods as in Epstein et al. (2018, mSphere).
+       The difference is testing one variant per LD group, instead of all
+       variants.
+
+3. Alignment of sequences by using muscle
+   Code for this step is found in 3-alignment.
+   - alignment-pipeline.sh is the shell script that ran the protein
+     alignment and produced nucleotide alignments from the protein
+     alignments.
+   - helper python scripts also included
+   - alignments were produced for entire orthogroups (the MCL output
+     from OrthoFinder) and for "orthosets" (the reconciled gene
+     groupings)
+   - Note: codon alignments of just sequences from one "orthoset" were
+     based on the protein alignment of all sequences in the orthogroup,
+     not on the orthoset-only protein alignment--more for convenience
+     than a different analysis.
+
+4. Construction of a single-copy-core phylogenetic tree by using IQ-tree
+   Code and output for this step is found in 4-species_tree.
+   - species_tree_pipeline.sh: code to construct the tree
+   - output tree from IQtree: sc.treefile
+   - ML estimates of pairwise distances: sc.mldist
+   - output tree rooted by using figtree: rooted.nw
+   - IQ-tree log file: sc.iqtree
+   - NOTE: For some reason, the list of single copy core genes here does
+     not include 9 genes that are single copy core according to the data
+     I used for the symbiosis gene comparison. This is because the
+     IQ-tree list of single-copy core genes was obtained by looking for
+     scc genes, then removing any with pseudogenes. By contrast, the
+     gene comparison data have the pseudogenes removed first, then
+     searched for scc--nine of the scc genes have extra pseudogene
+     copies. I don't think this is an important issue.
+
+5. Calculation of statistics for genes
+
+5a. Calculation of Ka/Ks for all pairs of sequences by using gestimator
+    Code for this step is found in 5-divergence/5a-kaks.
+    - kaks_pipeline.sh: Shell script to run the analysis
+    - output, cleaned of pseudogenes, is found in the directory for step
+      6-comparison
+
+5b. Calculation of pairwise protein distances by using FastME
+    Code for this step is found in 5-divergence/5b-protein_dist
+    - protein_dist_pipeline.sh: Shell script to run the analysis.
+    - output is found in 6-comparison
+
+5c. Calculation of phylogenetic signal statistics by using R packages
+    Code for this step is found in 5-divergence/5c-phylogenetic_signal
+    - phylo-signal-pipeline.sh: Shell script to run the analysis.
+    - A helper Python script and the R scripts that contain the
+      phylogenetic analysis are also included.
+    - output is summarized in 6-comparison
+
+5d. Estimates of rates of dup., loss, & transfer by using GeneRax
+    5-divergence/5d-generax
+    - generax-pipeline.sh: Shell script to run the analysis
+    - helper scripts included
+    - output is summarized in 6-comparison
+
+6. Comparison of symbiosis genes to rest of the genome
+   Code and output for this step is in 6-comparison.
+   Files with the statistics for each gene or pair of sequences:
+   - pairwise_divergence.tsv: Pairwise sequence statistics, with
+     pseudogenes removed.
+   - gene_divergence_summary.tsv: Averages, etc. of pairwise statistics
+     and other statistics for each gene.  Code:
+   - pairwise-table-script.sh: This script compiles the pairwise
+     divergence and Ka/Ks data into a single table, while removing
+     pseudogenes. It also contains code for calculating medians and
+     means, but this was eventually moved to a different script (see
+     below)
+   - make_orthoset_divergence_table.r: The R code that actually does the
+     work of tabulating pairwise divergence data. Is not fast.
+   - gene_comparison-pipeline.sh: code to calculate summary statistics
+     for each gene, create lists of randomly chosen background genes,
+     and compare the background to the symbiosis genes
+   - helper scripts included Output files:
+   - randomly_chosen_gene_sets: genes chosen as random background. Each
+     line is one set. "all": randomly chosen from all genes;
+     "matched_strain_count": randomly chosen from genes with the same
+     number of genomes as the symbiosis genes; "matched_count_and_copy":
+     randomly chosen from genes that were similar in the number of
+     genomes and copies to the symbiosis genes;
+     "phenotype_permutations": GWAS hits from analyses run on permuted
+     phenotype values (see Epstein et al. 2018).
+   - comparison_results: all the output from comparing symbiosis genes
+     to background genes. The file naming convention is
+     table.<background set>.<statistic>.tsv. The file format is one row
+     per gene set, with the values separated by tabs. The first row is
+     the values for the symbiosis genes, while each remaining row is one
+     random sample.
+
+7. Tables, figures, and summaries
+   Code for making the figures and tables and for doing the major
+   statistical tests is in 7-figures_and_tables.

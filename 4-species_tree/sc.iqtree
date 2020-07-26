@@ -1,0 +1,200 @@
+IQ-TREE 1.6.10 built Feb 19 2019
+
+Input file name: single_copy_core.concatenated.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 200325
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 27 sequences with 266634 amino-acid sites
+Number of constant sites: 99771 (= 37.4187% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 99771 (= 37.4187% of all sites)
+Number of parsimony informative sites: 144092
+Number of distinct site patterns: 127858
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.5070
+
+ Category  Relative_rate  Proportion
+  1         0.0347         0.2500
+  2         0.2565         0.2500
+  3         0.8253         0.2500
+  4         2.8835         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4131987.4678 (s.e. 6728.5458)
+Unconstrained log-likelihood (without tree): -2349732.8853
+Number of free parameters (#branches + #model parameters): 52
+Akaike information criterion (AIC) score: 8264078.9357
+Corrected Akaike information criterion (AICc) score: 8264078.9564
+Bayesian information criterion (BIC) score: 8264624.6046
+
+Total tree length (sum of branch lengths): 3.6325
+Sum of internal branch lengths: 1.8338 (50.4827% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon '1021' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--1021
+|
+|                         +--3841
+|                      +--| (100/100)
+|                      |  +--WSM1325
+|                   +--| (100/100)
+|                   |  +--WSM2304
+|                +--| (100/100)
+|                |  |        +--CFN42
+|                |  |     +--| (100/100)
+|                |  |     |  +--Mim1
+|                |  |  +--| (100/100)
+|                |  |  |  +--N561
+|                |  +--| (100/100)
+|                |     |  +--IE4803
+|                |     +--| (100/100)
+|                |        +--N161
+|             +--| (100/100)
+|             |  +--R602
+|          +--| (100/100)
+|          |  |     +--CCGE532
+|          |  |  +--| (100/100)
+|          |  |  |  +--CIAT899
+|          |  +--| (100/100)
+|          |     +--NXC24
+|       +--| (100/100)
+|       |  |  +------HAMBI540
+|       |  +--| (100/100)
+|       |     +-------IRBG74
+|  +----| (100/100)
+|  |    |                    +--CCNWGS0123
+|  |    |        +-----------| (100/100)
+|  |    |        |           |  +--MAFF303099
+|  |    |        |           +--| (100/100)
+|  |    |        |              +--WSM2073
+|  |    +--------| (100/100)
+|  |             |                                    +----LMTR13
+|  |             |                                 +--| (100/100)
+|  |             |                                 |  |   +--USDA110
+|  |             |                                 |  +---| (100/100)
+|  |             |                                 |      +--USDA6
+|  |             |                  +--------------| (100/100)
+|  |             |                  |              +----ORS285
+|  |             |              +---| (100/100)
+|  |             |              |   +------------------ORS571
+|  |             +--------------| (100/100)
+|  |                            +--------------------ORS2060
++--| (100/100)
+|  |  +--CCGM7
+|  +--| (100/100)
+|     +--NGR234
+|
++--WSM419
+
+Tree in newick format:
+
+(1021:0.0220106858,((((((((3841:0.0112896849,WSM1325:0.0114907157)100/100:0.0175777194,WSM2304:0.0214301053)100/100:0.0107739875,(((CFN42:0.0021013355,Mim1:0.0034573260)100/100:0.0114211675,N561:0.0133453847)100/100:0.0119002587,(IE4803:0.0154600506,N161:0.0135430466)100/100:0.0076043937)100/100:0.0092879970)100/100:0.0476083982,R602:0.0742907491)100/100:0.0425116468,((CCGE532:0.0261186220,CIAT899:0.0244277889)100/100:0.0305028900,NXC24:0.0368277029)100/100:0.0667533480)100/100:0.0499083207,(HAMBI540:0.1405543636,IRBG74:0.1567323263)100/100:0.0481435388)100/100:0.0542556129,((CCNWGS0123:0.0423379924,(MAFF303099:0.0256628997,WSM2073:0.0320492987)100/100:0.0273178787)100/100:0.2477416884,((((LMTR13:0.1010401263,(USDA110:0.0225126808,USDA6:0.0253069253)100/100:0.0773487600)100/100:0.0422270533,ORS285:0.1001436411)100/100:0.2970316288,ORS571:0.3652772594)100/100:0.0778072496,ORS2060:0.4186103251)100/100:0.3028760971)100/100:0.1776538029)100/100:0.1080983864,(CCGM7:0.0282947872,NGR234:0.0282788875)100/100:0.0313433508)100/100:0.0360640472,WSM419:0.0360983549);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -4131987.46791597
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--1021
+|
+|                         +--3841
+|                      +--| (100)
+|                      |  +--WSM1325
+|                   +--| (100)
+|                   |  +--WSM2304
+|                +--| (100)
+|                |  |        +--CFN42
+|                |  |     +--| (100)
+|                |  |     |  +--Mim1
+|                |  |  +--| (100)
+|                |  |  |  +--N561
+|                |  +--| (100)
+|                |     |  +--IE4803
+|                |     +--| (100)
+|                |        +--N161
+|             +--| (100)
+|             |  +--R602
+|          +--| (100)
+|          |  |     +--CCGE532
+|          |  |  +--| (100)
+|          |  |  |  +--CIAT899
+|          |  +--| (100)
+|          |     +--NXC24
+|       +--| (100)
+|       |  |  +------HAMBI540
+|       |  +--| (100)
+|       |     +-------IRBG74
+|  +----| (100)
+|  |    |                    +--CCNWGS0123
+|  |    |        +-----------| (100)
+|  |    |        |           |  +--MAFF303099
+|  |    |        |           +--| (100)
+|  |    |        |              +--WSM2073
+|  |    +--------| (100)
+|  |             |                                    +----LMTR13
+|  |             |                                 +--| (100)
+|  |             |                                 |  |   +--USDA110
+|  |             |                                 |  +---| (100)
+|  |             |                                 |      +--USDA6
+|  |             |                  +--------------| (100)
+|  |             |                  |              +----ORS285
+|  |             |              +---| (100)
+|  |             |              |   +------------------ORS571
+|  |             +--------------| (100)
+|  |                            +--------------------ORS2060
++--| (100)
+|  |  +--CCGM7
+|  +--| (100)
+|     +--NGR234
+|
++--WSM419
+
+
+Consensus tree in newick format: 
+
+(1021:0.0220105367,((((((((3841:0.0112895929,WSM1325:0.0114904912)100:0.0175770334,WSM2304:0.0214293798)100:0.0107737235,(((CFN42:0.0021016290,Mim1:0.0034570224)100:0.0114210352,N561:0.0133451214)100:0.0119000840,(IE4803:0.0154594774,N161:0.0135427773)100:0.0076041260)100:0.0092875884)100:0.0476072333,R602:0.0742881111)100:0.0425109949,((CCGE532:0.0261181221,CIAT899:0.0244270223)100:0.0305019728,NXC24:0.0368270115)100:0.0667508541)100:0.0499068431,(HAMBI540:0.1405503915,IRBG74:0.1567267762)100:0.0481430252)100:0.0542562928,((CCNWGS0123:0.0423379586,(MAFF303099:0.0256626268,WSM2073:0.0320490072)100:0.0273171450)100:0.2477337691,((((LMTR13:0.1010392050,(USDA110:0.0225123508,USDA6:0.0253070802)100:0.0773478450)100:0.0422260359,ORS285:0.1001434175)100:0.2970257012,ORS571:0.3652715164)100:0.0778063625,ORS2060:0.4186011935)100:0.3028695678)100:0.1776524202)100:0.1080940843,(CCGM7:0.0282945069,NGR234:0.0282782601)100:0.0313431090)100:0.0360629446,WSM419:0.0360976387);
+
+TIME STAMP
+----------
+
+Date and time: Thu Sep 26 13:29:40 2019
+Total CPU time used: 23729.4901 seconds (6h:35m:29s)
+Total wall-clock time used: 1565.684144 seconds (0h:26m:5s)
+
